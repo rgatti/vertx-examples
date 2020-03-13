@@ -1,0 +1,7 @@
+Vertx Examples
+
+A collection of examples for me to exeriment with Vertx.
+
+mvn package exec:java
+
+At prompt enter nubmer for example to run.
