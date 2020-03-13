@@ -4,10 +4,13 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
 import java.util.List;
 import java.util.Scanner;
+import org.example.async.AsyncFuture;
 
 public class Runner {
 
-  public static final List<Class<? extends AbstractVerticle>> examples = List.of();
+  public static final List<Class<? extends AbstractVerticle>> examples = List.of(
+      AsyncFuture.class
+  );
 
   public static void main(String[] args) {
     System.out.println("Run example...");
