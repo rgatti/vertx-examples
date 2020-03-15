@@ -5,13 +5,15 @@ import io.vertx.core.Vertx;
 import java.util.List;
 import java.util.Scanner;
 import org.example.async.AsyncFuture;
+import org.example.codec.CompositeCodecExample;
 import org.example.codec.SimpleCodecExample;
 
 public class Runner {
 
   public static final List<Class<? extends AbstractVerticle>> examples = List.of(
       AsyncFuture.class,
-      SimpleCodecExample.class
+      SimpleCodecExample.class,
+      CompositeCodecExample.class
   );
 
   public static void main(String[] args) {
